@@ -1,0 +1,133 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+    header .container {
+      max-width: 100%;
+    }
+    .header-right ul li a {
+      margin: 0;
+    }
+
+    .about .desc p,
+    .card .content p  {
+      font-size: 16px;
+    }
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+
+    .contact .cont .key span,
+    .contact .cont .value span {
+      font-size: 16px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media (max-width: 670px) {
+    .illustration {
+      width: 5%;
+      box-sizing: none;
+    }
+    .illustration {
+      width: 20%;
+    }
+    .header-right a {
+      line-height: 65px;
+      padding: 0 10px;
+      color: white;
+      display: block;
+      transition: all 0.10s;
+    }
+    .header-right {
+      padding-left: 20px;
+      width: 100%;
+    }
+    .header-right ul {
+      padding-inline-start: 0px;
+    }
+    .header-right ul li a {
+      margin: 0px 0px;
+    }
+    .header-left {
+      width: 100%;
+    }
+    .header-left .logo {
+      width: 30%;
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+    .header-left .logo {
+      padding: 25px 0px 0px 0px;
+      margin-left: 150px;
+    }
+    .top-wrapper {
+      background-size: 670px;
+    }
+
+    .top-wrapper h2 {
+      text-align: center;
+    }
+
+    .about .desc h1 {
+      font-size: 22px;
+    }
+    .about .desc p {
+      font-size: 14px;
+    }
+
+    .about .desc p, .card .content p{
+      font-size: 14px;
+    }
+    .profile h1,
+    .contact .cont h1 {
+      font-size: 22px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    
+    .card .content h1 {
+      font-size: 18px;
+    }
+
+    .contact .cont .key span, .contact .cont .value span {
+      font-size: 14px;
+    }
+
+    .contact .cont {
+      width: 100%;
+    }
+
+    .contact .img-contact{
+      display: none;
+    }
+    .button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+
+    footer span {
+      font-size: 14px;
+    }
+
+    .contact, .profile {
+      padding-top: 40px;
+    }
+
+    .top-wrapper h1 {
+      font-size: 28px;
+    }
+
+    .top-wrapper h2 {
+      font-size: 18px;
+    }
+  }
